@@ -6,6 +6,7 @@
 -->
 <html>
 
+<!-- website navigation -->
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,13 +25,19 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
+  background: none;
+  height: none;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: rgba(255, 255, 255, 0.25);}
+ul.topnav li a:hover:not(.active) {
+	background-color: none;
+	display: block;
+	color: white;
+}
 
 ul.topnav li a.active {background-color: #4CAF50;}
 
@@ -45,19 +52,14 @@ ul.topnav li.right {float: right;}
 <body>
 
 <ul class="topnav">
-	<li class="right"><a href="#contact">Contact</a></li>
-	<li class="right"><a href="#about">About</a></li>
-	<li class="right"><a href="#news">News</a></li>
-    <li class="right"><a href="#home">Home</a></li>
+	<li class="right"><a href="contact.html">Contact</a></li>
+	<li class="right"><a href="about.html">About</a></li>
+	<li class="right"><a href="news.html">News</a></li>
+    <li class="right"><a href="index.hmtl">Home</a></li>
 </ul>
-
-
-
 </body>
 
-
-
-
+<!-- Main part of webpage -->
 
 	<head>
 		<title>HUMDRUM MEDIA</title>
@@ -65,7 +67,7 @@ ul.topnav li.right {float: right;}
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	
-	<!---Scripts -->
+	<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.poptrox.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
@@ -87,6 +89,7 @@ ul.topnav li.right {float: right;}
 							<li><a href="https://www.twitter.com" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.twitter.com" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="https://www.twitter.com" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+							<li><a href="https://www.twitter.com" class="icon style2 fa-soundcloud"><span class="label">SoundCloud</span></a></li>
 							<li><a href="https://www.twitter.com" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
 							<!-- Template info - fill in as needed/wanted -->
 
@@ -99,26 +102,14 @@ ul.topnav li.right {float: right;}
 						<!-- Thumbnails -->
 							<section class="thumbnails">
 								<div>
-									<a href="https://thebridgebk.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-15-at-12.07.31-PM-e1529078898407.png">
-										<img src="https://thebridgebk.com/wp-content/uploads/2018/06/Screen-Shot-2018-06-15-at-12.07.31-PM-e1529078898407.png" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
+									<a href="showPages/untitledHorror.html">
+										<img src="images/thumbs/06.jpg" alt="" />
+										<h3>Untitled Horror<br>
+											<i>A new short by Humdrum Media</i>
+										</h3>
 									</a>
-									<a href="https://res.cloudinary.com/gimlet-media/image/upload/c_scale,f_auto,q_auto:best,w_1000/tdododsmjff25ydrjsv3">
-										<img src="https://res.cloudinary.com/gimlet-media/image/upload/c_scale,f_auto,q_auto:best,w_1000/tdododsmjff25ydrjsv3" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</a>
-								</div>
-								<div>
-									<a href="images/fulls/03.jpg">
-										<img src="images/thumbs/03.jpg" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</a>
-									<a href="images/fulls/04.jpg">
-										<img src="images/thumbs/04.jpg" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</a>
-									<a href="images/fulls/05.jpg">
-										<img src="images/thumbs/05.jpg" alt="" />
+									<a href="images/fulls/06.jpg">
+										<img src="images/thumbs/06.jpg" alt="" />
 										<h3>Lorem ipsum dolor sit amet</h3>
 									</a>
 								</div>
@@ -127,8 +118,19 @@ ul.topnav li.right {float: right;}
 										<img src="images/thumbs/06.jpg" alt="" />
 										<h3>Lorem ipsum dolor sit amet</h3>
 									</a>
-									<a href="images/fulls/07.jpg">
-										<img src="images/thumbs/07.jpg" alt="" />
+									<a href="images/fulls/06.jpg">
+										<img src="images/thumbs/06.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/06.jpg">
+										<img src="images/thumbs/06.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+									<a href="images/fulls/06.jpg">
+										<img src="images/thumbs/06.jpg" alt="" />
 										<h3>Lorem ipsum dolor sit amet</h3>
 									</a>
 								</div>
