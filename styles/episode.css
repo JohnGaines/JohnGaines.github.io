@@ -68,7 +68,7 @@ p a
 {
 	display: inline;
 	position: relative;
-	color: transparent;
+	color: white;
 	border-bottom: transparent;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
